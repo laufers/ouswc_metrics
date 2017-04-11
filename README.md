@@ -1,26 +1,28 @@
 # ouswc_metrics
 
-These are a collecton of scripts to produce plots of various metrics for Carpenty workshops hosted by the OU Libraries. Curently we are tracking attendence and domain/department/center information about our learns to have some measure of the impact the Carpentries have here at the UNiversity of Oklahoma. 
+These are a collection of scripts to produce plots of various metrics for Carpentry workshops hosted by the OU Libraries. Currently we are tracking attendance and domain/department/center information about our learns to have some measure of the impact the Carpentries have here at the University of Oklahoma.
 
 ### Files
 
-* metric_reporting.ipynb is the work in progress as the scripts are developed. 
-  * Currently this plots the number of learners who have attended workshops 
+* metric_reporting.ipynb is the work in progress as the scripts are developed.
+  * Currently this plots the number of learners who have attended workshops
   * Domains are scheduled to be worked on next.
-  
-  
+
+
 ### Data
 * swc_lerner_count.csv
-  * totals for learners in attendence 
+  * totals for learners in attendance
   * data for the early workshops was not kept, only the total for the year
-  
-date: start day and month of workshop as ##0-MMM
-year: four digit integer number for year (eg. 2017)
-month: integer number for month (1-12)
-learners: integer nuber of learners(attendees)
-workshops: Integer number of workshops 
-* This is done to account for no individual workshop counts in 2014-2015
-* This also allows for simutations workshops to occer in differeent locations on the same date
-  * Joint sessions to accomidate numbers or topics (eg. Python and R)
-notes: additional notes regarding workshop
-  
+
+> **Columns**
+> date: start day and month of workshop as ###-MMM
+> year: four digit integer number for year (eg. 2017)
+> month: integer number for month (1-12)
+> learners: integer number of learners(attendees)
+> workshops: Integer number of workshops
+> notes: additional notes regarding workshop
+
+Workshop variable is 1 per event but has been designed to allow for values > 1 for the following:
+* This is done to account for having only yearly workshop counts for 2014-2015
+* This also allows for simultaneous workshops to occur in different locations on the same date
+  * examle: Joint sessions to accommodate larger enrollment numbers or multiple session topics (eg. Python and R)
