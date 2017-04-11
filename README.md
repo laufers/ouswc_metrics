@@ -25,4 +25,6 @@ These are a collection of scripts to produce plots of various metrics for Carpen
 Workshop variable is 1 per event but has been designed to allow for values > 1 for the following:
 * This is done to account for having only yearly workshop counts for 2014-2015
 * This also allows for simultaneous workshops to occur in different locations on the same date
-  * examle: Joint sessions to accommodate larger enrollment numbers or multiple session topics (eg. Python and R)
+  * examples
+    * Joint sessions to accommodate larger enrollment numbers
+    * multiple session topics (eg. Python and R)
