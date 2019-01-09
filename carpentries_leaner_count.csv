@@ -1,20 +1,21 @@
-date,year,month,learners,workshops,notes
-2014,2014,,52,2,2 workshops
-2015,2015,,123,3,3 workshops
-16-Jan,2016,1,19,1,
-16-Mar,2016,3,25,1,
-16-Apr,2016,4,13,1,
-16-Apr,2016,4,10,1,
-16-Jun,2016,6,19,1,
-16-Aug,2016,8,3,1,
-16-Oct,2016,10,4,1,
-16-Dec,2016,12,12,1,
-16-Jan,2017,1,8,1,
-13-Mar,2017,3,15,1,
-17-Apr,2017,4,12,1,
-17-Aug,2017,8,18,1,
-20-Nov,2017,11,24,1,
-10-Jan,2018,1,9,1,
-30-Mar,2018,3,17,1,git for cs
-2-Apr,2018,4,5,1,
-6-Apr,2018,4,16,1,git for cs
+date,year,month,learners,workshops,type,notes
+2014,2014,,52,2,swc,2 workshops
+2015,2015,,123,3,swc,3 workshops
+16-Jan,2016,1,19,1,swc,
+16-Mar,2016,3,25,1,swc,
+16-Apr,2016,4,13,1,swc,
+16-Apr,2016,4,10,1,swc,
+16-Jun,2016,6,19,1,swc,
+16-Aug,2016,8,3,1,swc,
+16-Oct,2016,10,4,1,swc,
+16-Dec,2016,12,12,1,swc,
+16-Jan,2017,1,8,1,swc,
+13-Mar,2017,3,15,1,swc,
+17-Apr,2017,4,12,1,swc,
+17-Aug,2017,8,18,1,swc,
+20-Nov,2017,11,24,1,swc,
+10-Jan,2018,1,9,1,swc,
+30-Mar,2018,3,17,1,lesson,git for cs
+2-Apr,2018,4,5,1,swc,
+6-Apr,2018,4,16,1,lesson,git for cs
+18-May,2018,5,21,1,dc,
